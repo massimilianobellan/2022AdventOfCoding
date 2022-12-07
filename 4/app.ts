@@ -1,5 +1,4 @@
 import fs from "fs";
-import { listenerCount } from "process";
 
 fs.readFile("./assignments.txt", "utf8", (err: any, data: any) => {
   if (err) {
